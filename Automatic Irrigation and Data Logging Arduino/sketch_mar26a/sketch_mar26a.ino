@@ -171,9 +171,9 @@ void loop() {
   //Collect Variables
  
   
-  soilMoistureRaw = analogRead(soilMoisturePin);
+//  soilMoistureRaw = analogRead(soilMoisturePin);
 //   soilMoistureRaw = analogRead(soilMoisturePin)*(3.3/1024);
-  delay(20);
+//   delay(20);
   
   //Volumetric Water Content is a piecewise function of the voltage from the sensor
 //  if (soilMoistureRaw < 1.1) {
